@@ -5,7 +5,10 @@ import UnitToggler from './components/weather/UnitToggler.vue'
 <template>
   <div class="site-shell">
     <header class="site-header">
-      <RouterLink to="/" class="site-brand">☁️ SKALA Weather</RouterLink>
+      <div class="site-brand-group">
+        <RouterLink to="/" class="site-brand">☁️ SKALA Weather</RouterLink>
+        <span class="site-author">울산 2반 김규빈 U041</span>
+      </div>
       <nav class="site-nav">
         <RouterLink to="/" class="site-nav-item">대시보드</RouterLink>
         <RouterLink to="/explore" class="site-nav-item">탐색</RouterLink>
